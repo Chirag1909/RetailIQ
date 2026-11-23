@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+.env.local
+.env.*.local
+venv/
+env/
+ENV/
+.venv/
+
+# Large raw & processed data (official dataset files kept locally)
+online+retail/
+data/raw/*.xlsx
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.csv
+data/processed/*.parquet
+*.xlsx
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+retailiq.db
+retailiq_test.db
+
+# Machine Learning Large Artifacts & Cache
+ml/models/*.pkl
+ml/models/*.joblib
+ml/models/*.json
+!ml/models/.gitkeep
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Test & Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.vitest/
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
+
+# Reports generated dynamically (keep .gitkeep)
+data/reports/*.html
+data/reports/*.json
+!data/reports/.gitkeep
